@@ -35,7 +35,8 @@ Make sure to have available ```PORT 3000``` for backend and ```PORT 4000``` for 
 3. Start the frontend server:  
    ```sh
    npm run dev
-   ```  
+   ```
+4. Local Enviroment: [http://localhost:4000/](http://localhost:4000/)
 
 ## Usage  
 Once both the backend and frontend are running, you can access the application in your browser. The frontend will interact with the backend to fetch and display the information.
