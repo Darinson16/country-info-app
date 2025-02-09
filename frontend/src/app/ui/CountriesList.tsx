@@ -12,7 +12,7 @@ export default function CountriesList({
         <li key={i}>
           <Link
             href={`country/info/${country.name}/${country.countryCode}`}
-            className="hover:text-[#ededed60] transition-colors"
+            className="hover:text-[#ededed60] transition-colors text-lg"
           >
             {country.name}
           </Link>
