@@ -1,15 +1,42 @@
-# country-info-app
+# Country Info App
 
-Once you are in the root project you must first run the backend to enable the endpoints and then run the commands to configure the frontend
+This project provides country-related information through a frontend interface and a backend API. To get started, follow the setup instructions below.
 
-- Backend
+## Prerequisites  
+Ensure you have [Node.js](https://nodejs.org/) installed before proceeding.
 
-- cd backend
-- run 'npm install'
-- run 'npm run dev'
+Make sure to have available ```PORT 3000``` for backend and ```PORT 4000``` for frontend 
 
-- Frontend
+## Setup  
 
-- cd frontend
-- run 'npm install'
-- run 'npm run dev'
+### Backend Setup  
+1. Navigate to the backend directory:  
+   ```sh
+   cd backend
+   ```  
+2. Install dependencies:  
+   ```sh
+   npm install
+   ```  
+3. Start the backend server:  
+   ```sh
+   npm run dev
+   ```  
+
+### Frontend Setup  
+1. Navigate to the frontend directory:  
+   ```sh
+   cd frontend
+   ```  
+2. Install dependencies:  
+   ```sh
+   npm install
+   ```  
+3. Start the frontend server:  
+   ```sh
+   npm run dev
+   ```
+4. Local Enviroment: [http://localhost:4000/](http://localhost:4000/)
+
+## Usage  
+Once both the backend and frontend are running, you can access the application in your browser. The frontend will interact with the backend to fetch and display the information.
