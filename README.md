@@ -5,6 +5,8 @@ This project provides country-related information through a frontend interface a
 ## Prerequisites  
 Ensure you have [Node.js](https://nodejs.org/) installed before proceeding.
 
+Make sure to have available ```PORT 3000``` for backend and ```PORT 4000``` for frontend 
+
 ## Setup  
 
 ### Backend Setup  
